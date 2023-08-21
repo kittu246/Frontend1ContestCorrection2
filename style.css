@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,600&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0px;
+   
+}
+body{
+    background-color: rgb(244, 242, 242);
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display:flex;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    justify-content: space-between;
+    padding:10px;
+}
+nav>a,nav>div>a{
+  
+    color:white;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+#section-1,#section-2{
+    display: flex;
+    justify-content: center;
+}
+#book-dvsn,#form-dvsn{
+    padding:20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 30px rgb(190, 189, 189);
+    background-color: white;
+}
+
+table,td,th{
+    border: 1px solid rgb(196, 196, 196);
+    border-collapse: collapse;
+    padding:5px;
+}
+h3,td>a{
+    display: inline-block; /* as ancor tag is inline so it cant take margin botton so made it display: inline-block */
+    margin-bottom: 10px;;
+}
+form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+    
+}
+
+#form-dvsn{
+    width:575px;
+}
+
+label,input,button{
+    margin:3px;
+}
+input{
+    border: 1px solid rgb(196, 196, 196); 
+}
+button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
